@@ -44,10 +44,8 @@ int main(int argc, char *argv[]){
         char *token = strtok(line, " \n\t");
         while(token != NULL){
             wordcount++;
-            
             token = strtok(NULL, " \n\t");
         }
-     
     }
     fclose(fp);
     printf("Number of lines: %d\n", linecount);
@@ -57,7 +55,7 @@ int main(int argc, char *argv[]){
     printf("Number of consonants: %d\n", consonantcount);
     printf("Number of digits: %d\n", digitcount);
     printf("Number of other characters: %d\n", othercount);
-    printf("Sum of : %d\n", vowelcount + consonantcount + digitcount + othercount);
+    printf("Sum of 1,2,3,4 : %d\n", vowelcount + consonantcount + digitcount + othercount);
     return 0;
 
 }
