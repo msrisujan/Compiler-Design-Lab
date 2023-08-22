@@ -1,0 +1,411 @@
+Line 6: int is a keyword
+Line 6: main is an identifier
+Line 6: ( is a special character
+Line 6: int is a keyword
+Line 6: argc is an identifier
+Line 6: , is a special character
+Line 6: char is a keyword
+Line 6: ** is an operator
+Line 6: argv is an identifier
+Line 6: ) is a special character
+Line 7: { is a special character
+Line 8: FILE is an identifier
+Line 8: * is an operator
+Line 8: fpin is an identifier
+Line 8: , is a special character
+Line 8: * is an operator
+Line 8: fpout is an identifier
+Line 8: ; is a special character
+Line 9: char is a keyword
+Line 9: buf is an identifier
+Line 9: [ is a special character
+Line 9: 2000 is a constant
+Line 9: ] is a special character
+Line 9: , is a special character
+Line 9: * is an operator
+Line 9: token is an identifier
+Line 9: ; is a special character
+Line 10: int is a keyword
+Line 10: lines is an identifier
+Line 10: , is a special character
+Line 10: i is an identifier
+Line 10: = is an operator
+Line 10: 1 is a constant
+Line 10: , is a special character
+Line 10: j is an identifier
+Line 10: , is a special character
+Line 10: k is an identifier
+Line 10: ; is a special character
+Line 11: double is a keyword
+Line 11: array is an identifier
+Line 11: [ is a special character
+Line 11: 2000 is a constant
+Line 11: ] is a special character
+Line 11: [ is a special character
+Line 11: 3 is a constant
+Line 11: ] is a special character
+Line 11: ; is a special character
+Line 13: if is a keyword
+Line 13: ( is a special character
+Line 13: argc is an identifier
+Line 13: != is an operator
+Line 13: 3 is a constant
+Line 13: ) is a special character
+Line 13: { is a special character
+Line 14: fprintf is an identifier
+Line 14: ( is a special character
+Line 14: stderr is an identifier
+Line 14: , is a special character
+Line 14: "Usage: ./a.out <InputFile> <OutputFile>\n" is a string
+Line 14: ) is a special character
+Line 14: ; is a special character
+Line 15: return is a keyword
+Line 15: 0 is a constant
+Line 15: ; is a special character
+Line 16: } is a special character
+Line 18: fpin is an identifier
+Line 18: = is an operator
+Line 18: fopen is an identifier
+Line 18: ( is a special character
+Line 18: argv is an identifier
+Line 18: [ is a special character
+Line 18: 1 is a constant
+Line 18: ] is a special character
+Line 18: , is a special character
+Line 18: "r" is a string
+Line 18: ) is a special character
+Line 18: ; is a special character
+Line 19: fpout is an identifier
+Line 19: = is an operator
+Line 19: fopen is an identifier
+Line 19: ( is a special character
+Line 19: argv is an identifier
+Line 19: [ is a special character
+Line 19: 2 is a constant
+Line 19: ] is a special character
+Line 19: , is a special character
+Line 19: "w" is a string
+Line 19: ) is a special character
+Line 19: ; is a special character
+Line 21: if is a keyword
+Line 21: ( is a special character
+Line 21: fpin is an identifier
+Line 21: == is an operator
+Line 21: NULL is an identifier
+Line 21: ) is a special character
+Line 21: { is a special character
+Line 22: fprintf is an identifier
+Line 22: ( is a special character
+Line 22: stderr is an identifier
+Line 22: , is a special character
+Line 22: "Error: Invalid Input Filename\n" is a string
+Line 22: ) is a special character
+Line 22: ; is a special character
+Line 23: return is a keyword
+Line 23: 0 is a constant
+Line 23: ; is a special character
+Line 24: } is a special character
+Line 26: fgets is an identifier
+Line 26: ( is a special character
+Line 26: buf is an identifier
+Line 26: , is a special character
+Line 26: 2000 is a constant
+Line 26: , is a special character
+Line 26: fpin is an identifier
+Line 26: ) is a special character
+Line 26: ; is a special character
+Line 28: token is an identifier
+Line 28: = is an operator
+Line 28: strtok is an identifier
+Line 28: ( is a special character
+Line 28: buf is an identifier
+Line 28: , is a special character
+Line 28: " \t" is a string
+Line 28: ) is a special character
+Line 28: ; is a special character
+Line 30: lines is an identifier
+Line 30: = is an operator
+Line 30: atoi is an identifier
+Line 30: ( is a special character
+Line 30: token is an identifier
+Line 30: ) is a special character
+Line 30: ; is a special character
+Line 32: printf is an identifier
+Line 32: ( is a special character
+Line 32: "%d\n" is a string
+Line 32: , is a special character
+Line 32: lines is an identifier
+Line 32: ) is a special character
+Line 32: ; is a special character
+Line 34: while is a keyword
+Line 34: ( is a special character
+Line 34: fgets is an identifier
+Line 34: ( is a special character
+Line 34: buf is an identifier
+Line 34: , is a special character
+Line 34: 2000 is a constant
+Line 34: , is a special character
+Line 34: fpin is an identifier
+Line 34: ) is a special character
+Line 34: != is an operator
+Line 34: NULL is an identifier
+Line 34: ) is a special character
+Line 34: { is a special character
+Line 35: token is an identifier
+Line 35: = is an operator
+Line 35: strtok is an identifier
+Line 35: ( is a special character
+Line 35: buf is an identifier
+Line 35: , is a special character
+Line 35: " \t" is a string
+Line 35: ) is a special character
+Line 35: ; is a special character
+Line 37: token is an identifier
+Line 37: = is an operator
+Line 37: strtok is an identifier
+Line 37: ( is a special character
+Line 37: NULL is an identifier
+Line 37: , is a special character
+Line 37: " \t" is a string
+Line 37: ) is a special character
+Line 37: ; is a special character
+Line 38: j is an identifier
+Line 38: = is an operator
+Line 38: 1 is a constant
+Line 38: ; is a special character
+Line 39: while is a keyword
+Line 39: ( is a special character
+Line 39: token is an identifier
+Line 39: != is an operator
+Line 39: NULL is an identifier
+Line 39: ) is a special character
+Line 39: { is a special character
+Line 40: array is an identifier
+Line 40: [ is a special character
+Line 40: i is an identifier
+Line 40: ] is a special character
+Line 40: [ is a special character
+Line 40: j is an identifier
+Line 40: ] is a special character
+Line 40: = is an operator
+Line 40: atof is an identifier
+Line 40: ( is a special character
+Line 40: token is an identifier
+Line 40: ) is a special character
+Line 40: ; is a special character
+Line 42: token is an identifier
+Line 42: = is an operator
+Line 42: strtok is an identifier
+Line 42: ( is a special character
+Line 42: NULL is an identifier
+Line 42: , is a special character
+Line 42: " \t" is a string
+Line 42: ) is a special character
+Line 42: ; is a special character
+Line 43: j is an identifier
+Line 43: ++ is an operator
+Line 43: ; is a special character
+Line 44: } is a special character
+Line 45: i is an identifier
+Line 45: ++ is an operator
+Line 45: ; is a special character
+Line 46: } is a special character
+Line 51: printf is an identifier
+Line 51: ( is a special character
+Line 51: "numer of nodes in the given test file = %d\n" is a string
+Line 51: , is a special character
+Line 51: lines is an identifier
+Line 51: ) is a special character
+Line 51: ; is a special character
+Line 53: double is a keyword
+Line 53: temp is an identifier
+Line 53: ; is a special character
+Line 54: int is a keyword
+Line 54: dist is an identifier
+Line 54: [ is a special character
+Line 54: lines is an identifier
+Line 54: + is an operator
+Line 54: 1 is a constant
+Line 54: ] is a special character
+Line 54: [ is a special character
+Line 54: lines is an identifier
+Line 54: + is an operator
+Line 54: 1 is a constant
+Line 54: ] is a special character
+Line 54: ; is a special character
+Line 61: for is a keyword
+Line 61: ( is a special character
+Line 61: i is an identifier
+Line 61: = is an operator
+Line 61: 1 is a constant
+Line 61: ; is a special character
+Line 61: i is an identifier
+Line 61: <= is an operator
+Line 61: lines is an identifier
+Line 61: ; is a special character
+Line 61: i is an identifier
+Line 61: ++ is an operator
+Line 61: ) is a special character
+Line 62: for is a keyword
+Line 62: ( is a special character
+Line 62: j is an identifier
+Line 62: = is an operator
+Line 62: 1 is a constant
+Line 62: ; is a special character
+Line 62: j is an identifier
+Line 62: <= is an operator
+Line 62: lines is an identifier
+Line 62: ; is a special character
+Line 62: j is an identifier
+Line 62: ++ is an operator
+Line 62: ) is a special character
+Line 62: { is a special character
+Line 63: temp is an identifier
+Line 63: = is an operator
+Line 63: 0 is a constant
+Line 63: ; is a special character
+Line 64: for is a keyword
+Line 64: ( is a special character
+Line 64: k is an identifier
+Line 64: = is an operator
+Line 64: 1 is a constant
+Line 64: ; is a special character
+Line 64: k is an identifier
+Line 64: <= is an operator
+Line 64: 2 is a constant
+Line 64: ; is a special character
+Line 64: k is an identifier
+Line 64: ++ is an operator
+Line 64: ) is a special character
+Line 65: temp is an identifier
+Line 65: += is an operator
+Line 65: ( is a special character
+Line 65: array is an identifier
+Line 65: [ is a special character
+Line 65: i is an identifier
+Line 65: ] is a special character
+Line 65: [ is a special character
+Line 65: k is an identifier
+Line 65: ] is a special character
+Line 65: - is an operator
+Line 65: array is an identifier
+Line 65: [ is a special character
+Line 65: j is an identifier
+Line 65: ] is a special character
+Line 65: [ is a special character
+Line 65: k is an identifier
+Line 65: ] is a special character
+Line 65: ) is a special character
+Line 65: * is an operator
+Line 65: ( is a special character
+Line 65: array is an identifier
+Line 65: [ is a special character
+Line 65: i is an identifier
+Line 65: ] is a special character
+Line 65: [ is a special character
+Line 65: k is an identifier
+Line 65: ] is a special character
+Line 65: - is an operator
+Line 65: array is an identifier
+Line 65: [ is a special character
+Line 65: j is an identifier
+Line 65: ] is a special character
+Line 65: [ is a special character
+Line 65: k is an identifier
+Line 65: ] is a special character
+Line 65: ) is a special character
+Line 65: ; is a special character
+Line 66: dist is an identifier
+Line 66: [ is a special character
+Line 66: i is an identifier
+Line 66: ] is a special character
+Line 66: [ is a special character
+Line 66: j is an identifier
+Line 66: ] is a special character
+Line 66: = is an operator
+Line 66: ( is a special character
+Line 66: int is a keyword
+Line 66: ) is a special character
+Line 66: ( is a special character
+Line 66: sqrt is an identifier
+Line 66: ( is a special character
+Line 66: temp is an identifier
+Line 66: ) is a special character
+Line 66: + is an operator
+Line 66: 0.5 is a constant
+Line 66: ) is a special character
+Line 66: ; is a special character
+Line 67: } is a special character
+Line 69: fprintf is an identifier
+Line 69: ( is a special character
+Line 69: fpout is an identifier
+Line 69: , is a special character
+Line 69: "%d\n" is a string
+Line 69: , is a special character
+Line 69: lines is an identifier
+Line 69: ) is a special character
+Line 69: ; is a special character
+Line 71: for is a keyword
+Line 71: ( is a special character
+Line 71: i is an identifier
+Line 71: = is an operator
+Line 71: 1 is a constant
+Line 71: ; is a special character
+Line 71: i is an identifier
+Line 71: <= is an operator
+Line 71: lines is an identifier
+Line 71: ; is a special character
+Line 71: i is an identifier
+Line 71: ++ is an operator
+Line 71: ) is a special character
+Line 71: { is a special character
+Line 72: for is a keyword
+Line 72: ( is a special character
+Line 72: j is an identifier
+Line 72: = is an operator
+Line 72: 1 is a constant
+Line 72: ; is a special character
+Line 72: j is an identifier
+Line 72: <= is an operator
+Line 72: lines is an identifier
+Line 72: ; is a special character
+Line 72: j is an identifier
+Line 72: ++ is an operator
+Line 72: ) is a special character
+Line 73: fprintf is an identifier
+Line 73: ( is a special character
+Line 73: fpout is an identifier
+Line 73: , is a special character
+Line 73: "%d   " is a string
+Line 73: , is a special character
+Line 73: dist is an identifier
+Line 73: [ is a special character
+Line 73: i is an identifier
+Line 73: ] is a special character
+Line 73: [ is a special character
+Line 73: j is an identifier
+Line 73: ] is a special character
+Line 73: ) is a special character
+Line 73: ; is a special character
+Line 74: fprintf is an identifier
+Line 74: ( is a special character
+Line 74: fpout is an identifier
+Line 74: , is a special character
+Line 74: "\n" is a string
+Line 74: ) is a special character
+Line 74: ; is a special character
+Line 75: } is a special character
+Line 76: fclose is an identifier
+Line 76: ( is a special character
+Line 76: fpin is an identifier
+Line 76: ) is a special character
+Line 76: ; is a special character
+Line 77: fclose is an identifier
+Line 77: ( is a special character
+Line 77: fpout is an identifier
+Line 77: ) is a special character
+Line 77: ; is a special character
+Line 78: return is a keyword
+Line 78: 0 is a constant
+Line 78: ; is a special character
+Line 79: } is a special character
