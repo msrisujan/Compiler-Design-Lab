@@ -67,16 +67,16 @@ int isInteger(char *str){
     for(int i=0; i<token_size; i++){
         if(i==0){
             if(!isdigit(str[i])){
-                return(0);
+                return 0;
             }
         }
         else{
             if(!isdigit(str[i]) && !strchr(qualifiers, str[i])){
-                return(0);
+                return 0;
             }
         }
     }
-    return(1);
+    return 1;
 }
 
 
@@ -90,7 +90,7 @@ int isHexOrOcta(char *str){
     for(int i=0; i<token_size; i++){
         if(i==0){
             if(str[i] != '0'){
-                return(0);
+                return 0;
             }
         }
         else{
@@ -102,37 +102,37 @@ int isHexOrOcta(char *str){
                     state = 2;
                 }
                 else{
-                    return(0);
+                    return 0;
                 }
             }
             else{
                 if(state == 1){
                     if(i==2){
                         if(!strchr(dhex, str[i])){
-                            return(0);
+                            return 0;
                         }
                     }
                     else{
                         if(!strchr(dhex, str[i]) && !strchr(qualifiers, str[i])){
-                            return(0);
+                            return 0;
                         }
                         if (strchr(qualifiers, str[i]) && i == token_size-1){
-                            return(1);
+                            return 1;
                         }
                     }
                 }
                 else{
                     if(!strchr(doct, str[i]) && !strchr(qualifiers, str[i])){
-                            return(0);
+                            return 0;
                     }
                     if (strchr(qualifiers, str[i]) && i == token_size-1){
-                        return(1);
+                        return 1;
                     }
                 }
             }
         }
     }
-    return(1);
+    return 1;
 }
 
 
@@ -191,7 +191,7 @@ int isReal(char *str){
             }
             break;
         case 4:
-            return(0);
+            return 0;
         case 5:
             if(str[i] == '+' || str[i] == '-'){
                 state = 6;
@@ -222,20 +222,20 @@ int isReal(char *str){
                 state = 8;
             }
         case 8:
-            return(0);
+            return 0;
         case 9:
             if(str[i]){
-                return(0);
+                return 0;
             }
             break;
         default:
             break;
         }
         if (state == 4 || state == 8){
-            return(0);
+            return 0;
         }
     }
-    return(1);
+    return 1;
 }
 
 
