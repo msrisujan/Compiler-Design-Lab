@@ -116,11 +116,17 @@ int isHexOrOcta(char *str){
                         if(!strchr(dhex, str[i]) && !strchr(qualifiers, str[i])){
                             return(0);
                         }
+                        if (strchr(qualifiers, str[i]) && i == token_size-1){
+                            return(1);
+                        }
                     }
                 }
                 else{
                     if(!strchr(doct, str[i]) && !strchr(qualifiers, str[i])){
                             return(0);
+                    }
+                    if (strchr(qualifiers, str[i]) && i == token_size-1){
+                        return(1);
                     }
                 }
             }
