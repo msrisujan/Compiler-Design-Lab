@@ -102,13 +102,9 @@ void ll1_table(CFG cfg)
                 int n = strchr(cfg.non_terminals, cfg.rules[i].non_terminal) - cfg.non_terminals;
                 int m = strchr(cfg.terminals, next[k]) - cfg.terminals;
                 strcpy(table[n][m].production[0], cfg.rules[i].production[j]);
-                printf("(%c, %c): %c -> %s\n", cfg.rules[i].non_terminal, next[k], cfg.rules[i].non_terminal, table[n][m].production[0]);
-                total++;
             }
         }
     }
-
-    printf("Total: %d\n", total);
 
     print_table(table, cfg);
 
