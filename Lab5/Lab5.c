@@ -10,6 +10,9 @@
 // B = bA
 // B = S
 
+//Name: M.Sri Sujan
+//Roll No: CS21B1081
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
