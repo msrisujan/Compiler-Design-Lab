@@ -99,8 +99,8 @@ void computefirst(){
                 int n = strlen(prod);
                 while(if_epsilon(table[x_index].first) && k <= n - 2){
                     x_index = find_index(prod[k+1], n_s);
-                    char *x_first_set = remove_epsilon(table[x_index].first);
-                    changing = sets_union(table[index].first, x_first_set, changing);
+                    char *x_first_set1 = remove_epsilon(table[x_index].first);
+                    changing = sets_union(table[index].first, x_first_set1, changing);
                     k++;
                 }
                 if (k == n-1 && if_epsilon(table[x_index].first)){
@@ -149,7 +149,7 @@ void computefollow(){
                 int index = find_index(nonterminal, n_s);
                 int x_index = find_index(prod[strlen(prod) - 1], n_s);
                 changing = sets_union(table[x_index].follow, table[index].follow, changing);
-                char *rest = table[x_index].follow;
+                char *rest = table[index].follow;
                 int n = strlen(prod);
                 for(int k = n - 1; k >= 1; k--){
                     x_index = find_index(prod[k], n_s);
